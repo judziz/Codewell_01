@@ -3,7 +3,7 @@
 | Useful Links  |
 | ----------------- |
 [Assignement Link](https://www.codewell.cc/challenges/web-developer-portfolio--617d4897a383e41090a3e46f)
-[Vercel Link - Desktop version](https://frontend-mentor-03.vercel.app/)
+[Vercel Link - Desktop version](https://codewell-01.vercel.app/)
 
 ---
 
