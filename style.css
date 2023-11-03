@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+body {
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+  padding: 6rem 0 0 0;
+}
+/* -----------HEADER------------ */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14rem;
+}
+.header-name {
+  font-family: "Prata", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+.header-nav {
+  display: flex;
+  gap: 4rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.header-nav a:visited,
+.header-nav a:link {
+  color: rgba(255, 255, 255, 0.696);
+  text-decoration: none;
+}
+.header-nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.header-button {
+  padding: 1rem 2rem;
+  background-color: rgb(223, 223, 43);
+  border: none;
+  font-family: "Prata", sans-serif;
+  font-size: 2rem;
+}
+.header-button:hover {
+  cursor: pointer;
+}
+.header-button:active {
+  background-color: rgba(223, 223, 43, 0.811);
+  box-shadow: 0 0 1rem #666;
+  transform: translateY(4px);
+}
+.btn-tablet-nav {
+  display: none;
+}
+/* -----------SECTION-1------------ */
+.section-1 {
+  padding: 6rem 14rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.section-1-txt-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 70rem;
+}
+.section-1-logos {
+  display: flex;
+  justify-content: space-between;
+}
+.section-1-tablet-logos {
+  display: none;
+}
+.section-1-mobile-logos {
+  display: none;
+}
+.section-1-main-spense,
+.section-1-main-yelp {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.section-1-main-spense img,
+.section-1-main-yelp img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.section-1-main-spense a:link,
+.section-1-main-yelp a:link,
+.section-1-main-spense a:visited,
+.section-1-main-yelp a:visited {
+  color: white;
+  text-decoration: none;
+}
+.section-1-main-spense a:hover,
+.section-1-main-yelp a:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.696);
+  text-decoration: underline;
+}
+.main-txt {
+  font-family: "Prata", sans-serif;
+  font-size: 5rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+.primary-txt {
+  font-family: "Prata", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+.secondary-txt {
+  font-size: 1.9rem;
+  color: rgba(255, 255, 255, 0.696);
+}
+.section-1-main-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 5rem;
+}
+/* -----------SECTION-2------------ */
+.section-2 {
+  background-color: #343a40bc;
+  padding: 6rem 14rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 5rem;
+}
+.section-2-txt-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.secondary-txt span {
+  color: rgba(255, 255, 255, 0.919);
+}
+/* -----------SECTION-3------------ */
+.section-3 {
+  padding: 6rem 0 6rem 14rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 68.75rem;
+}
+/* -----------FOOTER------------ */
+footer {
+  padding: 2rem 14rem;
+  background-color: #343a40bc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logos {
+  display: flex;
+  gap: 2rem;
+}
+.footer-logos img:hover {
+  cursor: pointer;
+}
+.footer-button {
+  padding: 1rem 2rem;
+  background-color: rgb(223, 223, 43);
+  border: none;
+  font-family: "Prata", sans-serif;
+  font-size: 2rem;
+}
+.footer-button:hover {
+  cursor: pointer;
+}
+.footer-button:active {
+  background-color: rgba(223, 223, 43, 0.811);
+  box-shadow: 0 0 1rem #666;
+  transform: translateY(4px);
+}
